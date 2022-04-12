@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Exo', sans-serif;
+}
+
+.backform{
+    position: relative;
+    width: 60vw;
+    height: 100vh;
+    background-color: #F4F4F4;
+    border-bottom-right-radius: 100px;
+    z-index: 50;
+}
+
+.logotipo{
+    position: absolute;
+    z-index: 100;
+    top: 48px;
+    left: 56px;
+}
+
+.navio{
+    position: absolute;
+    width: 1740px;
+    height: 900px;
+    top: -70px;
+    left: 270px;
+}
+
+
+.login{
+    position: relative;
+    width: 492px;
+    height: 276;
+    top: 300px;
+    left: 194px;
+   
+}
+
+.login #par1{
+    position: relative;
+    left: 10px;
+    top: 2px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    padding-bottom: 3px;
+}
+
+.login #par2{
+    position: relative;
+    left: 10px;
+    top: 2px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 32px;
+}
+
+#inputnome, #inputsenha{
+    position: relative;
+    left: 10px;
+    top: 2px;
+    width: 432px;
+    height: 48px;
+    border-radius: 8px;
+    border-style: none;
+    margin-bottom: 16px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+
+input:focus {
+    outline: 1px solid #F47521; 
+}
+
+
+.btnsubmit{
+    width: 432px;
+    height: 48px;
+    background-color: #F47521;
+    border-radius: 8px;
+    border-style: none;
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.4px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+}
+
+.esqueci{
+    position: relative;
+    left: 10px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #979797;
+    text-decoration: none;
+}
+
+.rodape ul{
+    position: absolute;
+    display: flex;
+    left: 56px;
+    bottom: 48px;
+}
+
+.rodape ul li {
+    padding-right: 32px;
+    font-size: 12px;
+}
+
+.rodape ul li a{
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.track{
+    position: absolute;
+    width: 250px;
+    top: 115px;
+    left: 1017px;
+    z-index: 150; 
+}
+
+.track h2{
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 26px;
+}
+
+.track p{
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+}
+.track .world{
+    color: #F47521;
+}
